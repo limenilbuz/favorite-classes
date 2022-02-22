@@ -10,7 +10,6 @@ function Home(props)
     const handleChange = (event) => 
     {
         setValue(event.target.value);
-
     }
 
     const handleSubmit = (event) =>
@@ -20,6 +19,7 @@ function Home(props)
         {
             setClasses(favoriteClasses.concat(value));
             setValue('');
+            //alert("Class added!");
         }
         console.log(favoriteClasses);
     }

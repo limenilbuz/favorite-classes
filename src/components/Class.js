@@ -2,9 +2,10 @@ import "./Class.css"
 
 function Class(props)
 {
+    let name_of_class  = props.name;
     return(
     <div className="class">
-        {props.name}
+        Class Title: {name_of_class.toUpperCase()}
     </div>
     )
 }
