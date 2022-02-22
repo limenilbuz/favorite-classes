@@ -4,5 +4,6 @@
     background-color: lightblue;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    flex-direction: row;
     flex-grow: 1;
 }
